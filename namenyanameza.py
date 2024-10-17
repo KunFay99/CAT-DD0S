@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: <encoding name> -*-
+# -*- coding: Script -*-
 import sys
 import os
 import time
@@ -31,7 +31,7 @@ print("""\033[1;31m \033[92m
 |__|  |__|  \______/   |___  |___ |——————  |___
                                   Script By =>  ZA99
 =======================================================
-[[   https://github.com/KunFay99/Keheningan-malam    ]]
+[[ https://gituub.com     ]]
 =======================================================
 """)
 print(" ")
