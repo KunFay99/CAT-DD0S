@@ -14,5 +14,4 @@ elif c == "1":
     os.system("pkg install python2")
     os.system("pkg install fyglet")
     
-if os.name == "nt":
 print("Done.")
