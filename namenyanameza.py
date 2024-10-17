@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: Script -*-
+# -*- coding: utf-8 -*-
 import sys
 import os
 import time
@@ -16,7 +16,7 @@ month = now.month
 year = now.year
 
 ##############
-sock = socket.socket(socket.AF_INET.socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
