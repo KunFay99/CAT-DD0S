@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: <encoding name> -*-
 import sys
 import os
 import time
