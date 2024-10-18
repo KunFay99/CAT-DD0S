@@ -39,7 +39,7 @@ ip = raw_input("\033[94m[*] \033[91mIP \033[91mTarget \033[97m>>> \033[93m ")
 port = input("\033[94m[*] \033[91mPORT \033[97m>>> \033[93m ")
 
 os.system("clear")
-print(" KunDDOS Ready to Attack.. OK!! ")
+print(" KunDDOS SERANGAN AKAN DIMULAI.. 1,2,3")
 print(" 0====>>>>     15% ") 
 time.sleep(5)
 print(" 0==========>>>>      25% ") 
