@@ -35,11 +35,11 @@ print("""\033[1;31m \033[92m
 =======================================================
 """)
 print(" ")
-ip = raw_input("\033[94m[*] \033[91mIP \033[91mTarget \033[97m>>> \033[93m ")
+ip = raw_input("\033[94m[*] \033[91mIP \033[91mTARGET-SERANGAN \033[97m>>> \033[93m ")
 port = input("\033[94m[*] \033[91mPORT \033[97m>>> \033[93m ")
 
 os.system("clear")
-print(" KunDDOS SERANGAN AKAN DIMULAI.. 1,2,3")
+print(" KUN-DDOS SERANGAN AKAN DIMULAI.. 1,2,3")
 print(" 0====>>>>     15% ") 
 time.sleep(5)
 print(" 0==========>>>>      25% ") 
