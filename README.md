@@ -1,7 +1,7 @@
-# Namenyanameza
+# K0MA-DD0S
 # Clone repository 
 
-   - git clone https://github.com/KunFay99/Namenyanameza-DDos.git
+   - git clone 
 
    - cd Namenyanameza-DDos
     
