@@ -1,10 +1,10 @@
 # K0MA-DD0S
 # Clone repository 
 
-   - git clone 
+   - git clone https://github.com/KunFay99/K0MA-DD0S.git
 
-   - cd Namenyanameza-DDos
+   - cd K0MA-DD0S
     
    - setup.py
     
-   - namenyanameza-DDos.py
+   - python3 K0MA-DD0S.py
