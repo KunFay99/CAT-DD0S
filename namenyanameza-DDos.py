@@ -7,17 +7,34 @@ import random
 import threading
 import string
 
+# Color
+class bcolors:
+    ZA = '\033[97m'
+    ZA1 = '\033[31m'
+    ZA2 = '\033[32m'
+    ZA3 = '\033[33m'
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 # CLEAR
 os.system('clear')
-print("   🟤      🟡
-print("   🟤    🟡
-print("   🟤   🟡
-print("   🟤 🟡
-print("   🟡 🟤
-print("   🟡   🟤
-print("   🟡     🟤
-print("   🟡       🟤
-print("
+print("   🟤      🟡        🟤 🟡         🟤🟡        🟤🟡      🟤 🟡         ")
+print("   🟤    🟡       🟤       🟡      🟤 🟡      🟤 🟡    🟤      🟡       ")
+print("   🟤   🟡       🟤         🟡     🟤  🟡    🟤  🟡   🟤        🟡       ")
+print("   🟤 🟡        🟤           🟡    🟤   🟡  🟤   🟡   🟤        🟡       ")
+print("   🟡 🟤        🟡           🟤    🟡    🟤🟡    🟤   🟡        🟤       ")
+print("   🟡   🟤       🟡         🟤     🟡     🟡     🟤   🟡🟡🟡🟡🟡🟤       ")
+print("   🟡     🟤      🟡       🟤      🟡            🟤   🟡        🟤       ")
+print("   🟡       🟤       🟡 🟤         🟡            🟤   🟡        🟤       ")
+print("")
+print("\033[97=====================================================================\033[0m")
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
 "Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
