@@ -84,7 +84,7 @@ def start():
             s.send(r)
             u += 1
             print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN   " +str(u)+ "  \033[33mZN33P3R 6453 " +str()+ "   \033[97m" +ip+ "\033[0m" )
-       finally:
+        finally:
             s.close()
             print("\033[33m[\033[1m-\033[33m]\033[92mSitus Done!")
 
