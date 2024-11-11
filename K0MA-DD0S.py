@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# DDOS TCP FLOODER
-# v0.0.2
 import os
 import socket
 import requests
@@ -26,7 +24,8 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # CLEAR
-os.system('clear')
+os.system("clear")
+print("")
 print("        🔴    🔴      🔴 🔴       🔴🔴    🔴🔴       🔴🔴            ")
 print("        🔴   🔴     🔴     🔴     🔴 🔴  🔴 🔴     🔴    🔴          ")
 print("        🟠  🟠      🟠     🟠     🟠  🟠🟠  🟠    🟠      🟠         ")
@@ -35,11 +34,11 @@ print("        🟠  🟠      🟠     🟠     🟠        🟠    🟠🟠�
 print("        🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
 print("        🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
 print(" ")
-print("\033[33==============================================================\033[0m")
-print("\033[97            use this script for good purpose                  \033[0m")
-print("\033[97                    design by: Za'99                          \033[0m")
-print("\033[97                       --oO0Oo--                              \033[0m")
-print("\033[33==============================================================\033[0m")                  
+print("\033[33m===================================================================\033[0m")
+print("\033[97m                  use this script for good purpose                       \033[0m")
+print("\033[97m                        design by: Za'99                               \033[0m")
+print("\033[97m                           --oO0Oo--                                   \033[0m")
+print("\033[33m===================================================================\033[0m")                  
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
 "Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
