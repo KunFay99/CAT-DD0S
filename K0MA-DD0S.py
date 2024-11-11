@@ -88,7 +88,7 @@ def start():
             print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN   " +str(u)+ "  \033[33mZN33P3R 6453 " +str()+ "   \033[97m" +ip+ "\033[0m" )
         except:
             s.close()
-            print('[+] Server Down.')
+            print('\033[33m[\033[1m+\033[33m]\033[97m Server Down.\033[0m')
 
 for x in range(thread):
     thred = threading.Thread(target=start)
