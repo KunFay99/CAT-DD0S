@@ -27,17 +27,14 @@ class bcolors:
 
 # CLEAR
 os.system('clear')
-print("          🟤     🟤     🔴 🔴      ⚪⚪    ⚪⚪       🟡🟡        ")
-print("          🟤    🟤    🔴     🔴    ⚪ ⚪  ⚪ ⚪     🟡    🟡      ")
-print("          🟤   🟤     🔴     🔴    ⚪  ⚪⚪  ⚪    🟡      🟡     ")
-print("          ⚫  ⚫      ⚪     ⚪    🟠   🟠   🟠    ⚫      ⚫     ")
-print("          ⚫ ⚫       ⚪     ⚪    🟠   🟠   🟠    ⚫      ⚫     ")
-print("          ⚫  ⚫      ⚪     ⚪    🟠   🟠   🟠    ⚫      ⚫     ")
-print("          🟡   🟡     🔵     🔵    🟢        🟢    🟤🟤🟤🟤🟤     ")
-print("          🟡    🟡    🔵     🔵    🟢        🟢    🟤      🟤     ")
-print("          🟡     🟡     🔵 🔵      🟢        🟢    🟤      🟤     ")
-print("")
-print("\033[97=====================================================================\033[0m")
+print("        🔴    🔴      🔴 🔴       🔴🔴    🔴🔴       🔴🔴            ")
+print("        🔴   🔴     🔴     🔴     🔴 🔴  🔴 🔴     🔴    🔴          ")
+print("        ⚪  ⚪      ⚪     ⚪     ⚪  ⚪⚪  ⚪    ⚪      ⚪         ")
+print("        ⚪ ⚪       ⚪     ⚪     ⚪   ⚪   ⚪    ⚪      ⚪         ")
+print("        ⚪  ⚪      ⚪     ⚪     ⚪        ⚪    ⚪⚪⚪⚪⚪         ")
+print("        🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
+print("        🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
+print("\033[33==============================================================\033[0m")
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
 "Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
@@ -65,7 +62,7 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-ip = str(input('\033[31m[\033[97m+\033[31m] Target: \033[0m'))
+ip = str(input('\033[31m[\033[97m+\033[31m]\033[33 Target: \033[0m'))
 port = int(input('[+] Port: '))
 pack = int(input('[+] Packet/s: '))
 thread = int(input('[+] Threads: '))
