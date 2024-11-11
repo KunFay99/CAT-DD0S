@@ -66,10 +66,10 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-ip = str(input("\003[93m[\033[97m+\033[93m]\033[92mTarget: \033[0m"))
-port = int(input("\003[93m[\033[97m+\033[93m]\033[92mPort: \033[0m"))
-thread = int(input("\003[93m[\033[97m+\033[93m]\033[92mThreads: \033[0m"))
-port = int(input("\003[93m[\033[97m+\033[93m]\033[92mPacket/s: \033[0m"))
+ip = str(input("[\033[97m+]\033[92mTarget: \033[0m"))
+port = int(input("[\033[97m+]\033[92mPort: \033[0m"))
+thread = int(input("[\033[97m+]\033[92mThreads: \033[0m"))
+port = int(input("[\033[97m+]\033[92mPacket/s: \033[0m"))
 
 def start():
     global useragents, ref, acceptall
