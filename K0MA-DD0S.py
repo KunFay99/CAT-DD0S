@@ -106,7 +106,7 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(packs))
-            print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m").format(str(ip), int(port), xx)
+            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
         finally:
             s.close()
             print("\033[92m[\033[33m+\033[92m] \033[96mServer Down.\033[0m")
