@@ -6,6 +6,8 @@ import requests
 import random
 import threading
 import string
+import date
+import time
 
 # Color
 class bcolors:
@@ -74,13 +76,13 @@ print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
 print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
-print("\033[92m..................>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
+print("\033[92m..................>>> search server \033[0m "),
 time.sleep(2),
-print("\033[1m..................>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
+print("\033[1m..................>>> starts connection \033[0m "),
 time.sleep(2),
-print("\033[97m..................>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
+print("\033[97m..................>>> penetrate security layer \033[0m "),
 time.sleep(2),
-print("\033[95m..................>>> DIGAWE SAMBUNGAN \033[0m "),
+print("\033[95m..................>>> send package \033[0m "),
 time.sleep(2),
 def start():
     global useragents, ref, acceptall
