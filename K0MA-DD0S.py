@@ -109,7 +109,7 @@ def start():
             print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
         except:
             s.close()
-            print('[+] Server Down.')
+            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
 
 for x in range(thread):
     thred = threading.Thread(target=start)
