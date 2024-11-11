@@ -2,10 +2,12 @@
 # _*_ coding: utf-8 _*_
 # DDOS TCP FLOODER
 # v0.0.2
-
-import socket, requests
+import os
+import socket
+import requests
 import random
 import threading
+import time
 
 class bcolors:
     ZA = '\033[97m'
