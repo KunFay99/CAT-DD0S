@@ -68,13 +68,13 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 ip = str(input("\033[93m[\033[93m+\033[92m]IP Target : "))
-print("\033[33m⁸⁹⁰⁰⁰⁰⁸")
+print("\033[33m=====>>>")
 port = int(input("\033[92m[\033[95m+\033[92m]Port : "))
-print("\033[32m⁸⁹⁰⁰⁰⁰⁸")
+print("\033[32m=====>>>")
 packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
-print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
+print("\033[31m=====>>>")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
-print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
+print("\033[94m=====>>>"),
 print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
 print("\033[92m..................>>> search server \033[0m "),
 time.sleep(2),
