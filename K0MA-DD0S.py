@@ -80,15 +80,15 @@ print("\033[31m-——————⟩⟩⟩")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m———————⟩⟩⟩"),
 time.sleep(5),
-print("\033[96m                  >>> DD0S TCP LOADER \033[0m "),
+print("\033[96m                  ⟩⟩  DD0S TCP LOADER \033[0m "),
 time.sleep(5),
-print("\033[92m                  >>> search server \033[0m "),
+print("\033[92m                  ⟩⟩  search server \033[0m "),
 time.sleep(5),
-print("\033[1m                  >>> starts connection \033[0m "),
+print("\033[1m                  ⟩⟩  starts connection \033[0m "),
 time.sleep(5),
-print("\033[97m                  >>> penetrate security layer \033[0m "),
+print("\033[97m                  ⟩⟩  penetrate security layer \033[0m "),
 time.sleep(5),
-print("\033[95m                  >>> send package \033[0m "),
+print("\033[95m                  ⟩⟩  send package \033[0m "),
 time.sleep(5),
 def start():
     global useragents, ref, acceptall
