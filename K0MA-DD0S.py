@@ -3,6 +3,7 @@
 # DDOS TCP FLOODER
 # v0.0.2
 import os
+import sys
 import socket
 import requests
 import random
