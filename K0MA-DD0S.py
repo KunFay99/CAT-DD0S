@@ -40,7 +40,7 @@ print("\033[96m      ±± ±±      ±±       ±±  ±±  ±± ±±  ±±  ±±
 print("\033[97m      ±± ±±      ±±       ±±  ±±    ±    ±±  ±±       ±±        \033[0m")
 print("\033[97m      ±±   ±±     ±±     ±±   ±±         ±±  ±± ±± ±± ±±        \033[0m")
 print("\033[97m      ±±     ±±     ±± ±±     ±±         ±±  ±±       ±±        \033[0m")
-print("\033[33m================================================================\033[0m")
+print("\033[33m                                                                \033[0m")
 print("\033[92m               use this script for good purpose                 \033[0m")
 print("\033[92m                        design by: Za'99                        \033[0m")
 print("\033[92m                           --oO0Oo--                            \033[0m")
@@ -121,7 +121,7 @@ def start():
         
         except:
                s.close()
-               print("[+]Server DoWn!.")
+               print("[🌠]Server DoWn!.")
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
