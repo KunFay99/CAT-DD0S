@@ -100,7 +100,7 @@ def start():
                 
         except:
                s.close()
-               print("[!]          \033[31mServer DoWn!.\033[0m")
+               print("[!]  \033[96m[KOMA]  \033[37m{2}  \033[33m[Attack Sent]  \033[92m{0}:{1}\033[0m".format(str(ip), int(port), xx))     
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
