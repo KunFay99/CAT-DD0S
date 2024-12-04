@@ -10,7 +10,7 @@ import random
 import threading
 import time
 import fade
-    os.system("clear")
+os.system("clear")
 
 
 logo = """
