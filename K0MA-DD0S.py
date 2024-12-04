@@ -23,12 +23,12 @@ logo = """
      |  | \  \    |  |__|  |   |  |    |  |   |   ___  |
      |__|  \__\    \_____ /    |__|    |__|   |  |  |__|
 
-'\033[31m               THE CREATOR IS NOT RESPONSIBLE 
-'\033[32m                   FOR ANY FORM OF MISUSE
-'\033[33m                      Dedign By: KF24
-'\033[97m                        ——°oO0Oo°——
+\033[31m               THE CREATOR IS NOT RESPONSIBLE 
+\033[32m                   FOR ANY FORM OF MISUSE
+\033[33m                      Dedign By: KF24
+\033[97m                        ——°oO0Oo°——
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-'\033[37m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+\033[37m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 """
 faded_text = fade.fire(logo)
 print(faded_text)
