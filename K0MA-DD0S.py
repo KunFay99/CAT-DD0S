@@ -23,13 +23,13 @@ logo = """
      |  | \  \    |  |__|  |   |  |    |  |   |   ___  |
      |__|  \__\    \_____ /    |__|    |__|   |  |  |__|
 
-\033[31m               THE CREATOR IS NOT RESPONSIBLE 
-\033[32m                   FOR ANY FORM OF MISUSE
-\033[33m                      Dedign By: KF24
-\033[97m                        ——°oO0Oo°——
+'\033[31m               THE CREATOR IS NOT RESPONSIBLE 
+'\033[32m                   FOR ANY FORM OF MISUSE
+'\033[33m                      Dedign By: KF24
+'\033[97m                        ——°oO0Oo°——
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+'\033[37m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 """
-∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 faded_text = fade.fire(logo)
 print(faded_text)
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
