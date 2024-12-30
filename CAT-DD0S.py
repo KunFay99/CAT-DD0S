@@ -13,20 +13,24 @@ import fade
 os.system("clear")
 
 
-logo = """
-   ██▒▒    ██▒▒    ██▒██▒▒    ██▒▒         ██▒▒     ██▒██▒▒
-   ██▒▒   ██▒▒   ██▒▒   ██▒▒  ██▒██▒▒   ██▒██▒▒   ██▒▒   ██▒▒
-   ██▒▒  ██▒▒    ██▒▒   ██▒▒  ██▒▒██▒▒ ██▒▒██▒▒  ██▒▒     ██▒▒
-   ██▒▒ ██▒▒     ██▒▒   ██▒▒  ██▒▒ ██▒██▒▒ ██▒▒  ██▒▒     ██▒▒
-   ██▒▒██▒▒      ██▒▒   ██▒▒  ██▒▒   ██▒▒  ██▒▒  ██▒▒     ██▒▒
-   ██▒▒ ██▒▒     ██▒▒   ██▒▒  ██▒▒   ██▒▒  ██▒▒  ██▒▒     ██▒▒
-   ██▒▒  ██▒▒    ██▒▒   ██▒▒  ██▒▒   ▒▒▒   ██▒▒  ██▒▒     ██▒▒
-   ██▒▒   ██▒▒   ██▒▒   ██▒▒  ██▒▒   ▒▒    ██▒▒  ██▒██▒██▒██▒▒
-   ██▒▒    ██▒▒    ██▒██▒▒    ██▒▒    ▒    ██▒▒  ██▒▒     ██▒▒
-   ▒▒▒     ▒▒▒     ▒▒▒▒▒▒    ▒▒▒▒        ▒▒▒▒   ▒▒▒▒    ▒▒▒▒
-     ▒▒▒     ▒▒       ▒▒▒▒     ▒▒▒         ▒▒▒    ▒▒▒      ▒▒▒
-    ▒▒       ▒▒     ▒▒▒       ▒▒         ▒▒     ▒▒       ▒▒
-     ▒        ▒         ▒        ▒          ▒       ▒      ▒
+logo = """ 
+                ██▒██▒██▒▒
+             ██▒▒
+           ██▒▒
+           ██▒▒
+           ██▒▒
+           ██▒▒
+           ██▒▒
+             ██▒▒
+               ██▒██▒██▒▒
+               ▒▒▒▒▒▒▒▒▒
+                ▒▒▒▒▒▒▒
+                 ▒▒▒▒▒
+                  ▒▒▒
+                   ▒▒
+
+   
+
 \033[31m            THE  CREATOR  IS  NOT  RESPONSIBLE 
 \033[32m                FOR  ANY  FORM  OF  MISUSE
 \033[33m                      Design By: KF24
@@ -72,15 +76,15 @@ print("\033[31m-——————⟩⟩⟩")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m———————⟩⟩⟩"),
 time.sleep(5),
-print("\033[96m        ⟩⟩  DD0S TCP LOADER \033[0m "),
+print("\033[96m        ⟩⟩  CYBER ATTACK PEOPLE \033[0m "),
 time.sleep(5),
-print("\033[92m        ⟩⟩  search server \033[0m "),
+print("\033[92m        ⟩⟩  ADALAH CYBER ARMY \033[0m "),
 time.sleep(5),
-print("\033[1m        ⟩⟩  starts connection \033[0m "),
+print("\033[1m        ⟩⟩  YANG BERJUANG  \033[0m "),
 time.sleep(5),
-print("\033[97m        ⟩⟩  penetrate security layer \033[0m "),
+print("\033[97m        ⟩⟩  KARENA KESEWENANGAN \033[0m "),
 time.sleep(5),
-print("\033[95m        ⟩⟩  send Packet \033[0m "),
+print("\033[95m        ⟩⟩  BANGSA BAR-BAR \033[0m "),
 time.sleep(5),
 def start():
     global useragents, ref, acceptall
