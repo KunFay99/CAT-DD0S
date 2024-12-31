@@ -29,7 +29,7 @@ logo = """
              ▒▒▒        ▒▒                 ▒       ▒
             ▒▒          ▒                   ▒      ▒
 \033[92m             THE  CREATOR  IS  NOT  RESPONSIBLE 
-\033[32m                 FOR  ANY  FORM  OF  MISUSE
+\033[32m                  FOR  ANY  FORM  OF  MISUSE
 \033[33m                       Design By: KF24
 \033[97m                         ——°oO0Oo°——
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
