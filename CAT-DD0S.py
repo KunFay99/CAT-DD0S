@@ -110,7 +110,7 @@ def start():
                 
         except:
                 s.close()
-                print("[x] \033[35m[CAT]  \033[34m[Meybe Down]   \033[36m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x] \033[35m[CAT]  \033[34m[Meybee Down]  \033[37m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
