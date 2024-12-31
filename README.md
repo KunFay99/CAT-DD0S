@@ -1,4 +1,4 @@
-# K0MA-DD0S
+# CAT-DD0S
 # Clone repository 
 
    - git clone https://github.com/KunFay99/K0MA-DD0S.git
